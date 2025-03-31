@@ -5,10 +5,10 @@ This is the repository for codes in the paper "Toward Universal, Fully Soft, and
 The code for real-time sensing of surface shape and force is included in the `Real-time Sensing` folder. 
 
 ### Firmware
-The firmware to be loaded into the Arduino Mega 2560 is contained in `firmware_arduino_mega.ino` in `firmware_arduino_mega` folder. 
+The firmware to be loaded into the Arduino Mega 2560 is contained in [`firmware_arduino_mega.ino`](https://github.com/MIT-FIDL/waveguide_sheet/blob/main/Real-time%20Sensing/firmware_arduino_mega/firmware_arduino_mega.ino) in [`firmware_arduino_mega`](https://github.com/MIT-FIDL/waveguide_sheet/tree/main/Real-time%20Sensing/firmware_arduino_mega) folder. 
 
 ### Running Real-time Sensing
-After loading firmware into the microcontroller, the MATLAB app `shape_stress_reconstruction.mlapp` can be opened. 
+After loading firmware into the microcontroller, the MATLAB app [`shape_stress_reconstruction.mlapp`](https://github.com/MIT-FIDL/waveguide_sheet/tree/main/Real-time%20Sensing/shape_stress_reconstruction.mlapp) can be opened. 
 The port name (line 53) need to be changed to the corresponding port for the microcontroller before running. 
 When the application runs and the port is correctly configured and connected, a UI window will show up with a few buttons at the bottom.
 
@@ -21,7 +21,7 @@ The port is probably not correctly connected. Check that the microcontroller is 
 <details>
 <summary>Data not looking right?</summary>
   
-If the phototransistor outputs are not correct, use the file `plot_power_dB.mlapp` in the same folder for debugging. This MATLAB application plot the phototransistor outputs in real time and is recommended to be used for debugging the hardware.
+If the phototransistor outputs are not correct, use the file [`plot_power_dB.mlapp`](https://github.com/MIT-FIDL/waveguide_sheet/blob/main/Real-time%20Sensing/plot_power_dB.mlapp) in the same folder for debugging. This MATLAB application plot the phototransistor outputs in real time and is recommended to be used for debugging the hardware.
 </details>
 
 The button "Start Measure" will enable data measurement from the waveguides. This can be confirmed by checking data showing up at the text UI area at the bottom of the window.\
@@ -30,9 +30,9 @@ To switch between shape sensing and force sensing, click the "Lock Shape and Sta
 
 
 ## Simulation for Search in Design Space
-The code for grid search of the design space (Figure 3 in the paper) is included in the `Simulation for Search in Design Space` folder. This grid search goes through a range of waveguide angle (theta) and number (N) and uses minimum distance between shapes to quantify shape reconstruction performance. Specific execution and derivations are included in Supplemental Information (SI Appendix Section S4).  
+The code for grid search of the design space (Figure 3 in the paper) is included in the [`Simulation for Search in Design Space`](https://github.com/MIT-FIDL/waveguide_sheet/tree/main/Simulation%20for%20Search%20in%20Design%20Space) folder. This grid search goes through a range of waveguide angle (theta) and number (N) and uses minimum distance between shapes to quantify shape reconstruction performance. Specific execution and derivations are included in Supplemental Information (SI Appendix Section S4).  
 
-The file `main_design_space_sim.m` execute grid search simulations for each of the six target shapes (Figure 3B) and save the result files in the subfolder `surf_error_analysis`. It also plot the heatmap (Figure 3C-D).
+The file [`main_design_space_sim.m`](https://github.com/MIT-FIDL/waveguide_sheet/blob/main/Simulation%20for%20Search%20in%20Design%20Space/main_design_space_sim.m) execute grid search simulations for each of the six target shapes (Figure 3B) and save the result files in the subfolder [`surf_error_analysis`](https://github.com/MIT-FIDL/waveguide_sheet/tree/main/Simulation%20for%20Search%20in%20Design%20Space/surf_error_analysis). The main file also plots the heatmap (Figure 3C-D).
 
 
 
