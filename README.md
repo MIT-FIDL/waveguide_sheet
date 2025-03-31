@@ -2,7 +2,7 @@
 This is the repository for codes in the paper "Toward Universal, Fully Soft, and Multi-functional Shape Sensing of Soft Bodies via Optical Waveguide Matrices".
 
 ## Real-time Sensing
-The code for real-time sensing of surface shape and force is included in the `Real-time Sensing` folder. 
+The code for real-time sensing of surface shape and force is included in the [`Real-time Sensing`](https://github.com/MIT-FIDL/waveguide_sheet/tree/main/Real-time%20Sensing) folder. 
 
 ### Firmware
 The firmware to be loaded into the Arduino Mega 2560 is contained in [`firmware_arduino_mega.ino`](https://github.com/MIT-FIDL/waveguide_sheet/blob/main/Real-time%20Sensing/firmware_arduino_mega/firmware_arduino_mega.ino) in [`firmware_arduino_mega`](https://github.com/MIT-FIDL/waveguide_sheet/tree/main/Real-time%20Sensing/firmware_arduino_mega) folder. 
