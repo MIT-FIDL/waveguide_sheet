@@ -1,5 +1,5 @@
 # waveguide_sheet
-This is the repository for codes in the paper "Toward Universal, Fully Soft, and Multi-functional Shape Sensing of Soft Bodies via Optical Waveguide Matrices".
+This is the repository for codes in the paper "Toward Fully Soft and Multi-functional Shape Sensing of Soft Bodies via Optical Waveguide Matrices".
 
 ## Real-time Sensing
 The code for real-time sensing of surface shape and force is included in the [`Real-time Sensing`](https://github.com/MIT-FIDL/waveguide_sheet/tree/main/Real-time%20Sensing) folder. 
